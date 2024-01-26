@@ -1,15 +1,15 @@
+"use client"
 import { useState, useEffect } from "react";
+import Style from "../style/Pokedex.module.css";
 function Pokedex() { 
     const [pokemon, setPokemon] = useState([]);
     return (
-        <main>
-            {pokemon.map((p) => (
-                <div>
-                    <h2>{p.name}</h2>
-                    <img src={p.sprites.front_default} />
+        <div className={Style.main}>
+                <div className={Style.imag}>
                 </div>
-            ))}
-        </main>
+                <div className={Style.name}>
+                </div>
+        </div>
     );
 };
 export default Pokedex;
