@@ -1,0 +1,83 @@
+.imag h1{
+    color: var(--blue);
+    font-family: Poppins;
+    font-size: var(--bm);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.imag p{
+    color: var(--celest);
+    font-family: Poppins;
+    font-size: var(--ssm);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
+}
+.About h1{
+    color: var(--gray);
+    text-align: left;
+    font-family: Poppins;
+    font-size: var(--ssm);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.About p text{
+    color: var(--gray-clear);
+    font-family: Poppins;
+    font-size: var(--sm);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.About p{
+    
+    display: grid;
+    grid-template-columns: 20% 80%;
+    color: var(--gray);
+    font-family: Poppins;
+    font-size: var(--sm);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.Stats p{
+    color: var(--gray);
+    font-family: Poppins;
+    font-size: var(--sm);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-bottom: 10px;
+
+}
+.Stats p text{
+    color: var(--gray-clear);
+    font-family: Poppins;
+    font-size: var(--sm);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Stats h1{
+    color: var(--gray);
+    font-family: Poppins;
+    font-size: var(--ssm);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.About{
+    padding: 2%;
+}
+.Stats{
+    padding: 2%;
+}
